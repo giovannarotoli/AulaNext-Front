@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
 
@@ -9,8 +10,10 @@ export default function Home() {
     <br/>
     <p>paragrafo</p>
     <div>
-      <h4>outro paragrafo</h4>
+      <p>outro paragrafo</p>
     </div>
+    <p><Link href={'/login'}>Login</Link></p>
+    <p><Link href={'/produtos'}>Produtos</Link></p>
     </main>
   );
 }
