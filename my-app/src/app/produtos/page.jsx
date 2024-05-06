@@ -3,8 +3,8 @@ import styles from './page.module.css';
 export default function Produtos(){
     return(
         <>
-        <div className={styles.container}>
-            <h1>lista de produtos</h1>
+        <div className='container'>
+            <h1>Lista de produtos</h1>
             <div>
                 Produto: Processador I5
                 Modelo: 15001
